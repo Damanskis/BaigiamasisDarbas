@@ -1,0 +1,9 @@
+main{
+    width: 100% !important;
+}
+
+#root .makeStyles-root-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

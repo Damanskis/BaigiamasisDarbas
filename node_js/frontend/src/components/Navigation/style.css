@@ -1,0 +1,24 @@
+
+.user-box{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+
+.user-box > li{
+    display: flex;
+    align-items: center;
+}
+
+li.user div.MuiListItemText-root.MuiListItemText-multiline {
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10px;
+}
+
+li.user div.MuiListItemText-root.MuiListItemText-multiline p{
+    margin-left: 10px;
+} 

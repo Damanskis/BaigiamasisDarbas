@@ -1,0 +1,132 @@
+html, body{
+    min-height: 100vh;
+}
+
+#root{
+    min-height: 100vh;
+}
+
+#root > div.makeStyles-root-1{
+    position: relative;
+    width: 100%;
+}
+
+div.Login-root-2{
+    height: 90%;
+}
+
+.login-container{
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   position: relative;
+   align-items: center;
+   background-color: #fafafa !important;
+}
+
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+// #3FD2C7 #99DDFF #00458B -> Blue colors
+// #150734 #0F2557 #28559A #3778C2 #4B9FE1 #63BCE5 #7ED5EA -> Blue colors 
+// #182978 #6688CC #ACBFE6
+ */
+
+
+.MuiGrid-root.Login-root-2.MuiGrid-container > div:nth-child(2), 
+.MuiGrid-root.Login-root-2.MuiGrid-container > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.MuiPaper-elevation6 {
+    box-shadow: 0px 10px 15px -1px rgba(0,0,0,0.2), 0px 6px 18px 0px rgba(0,0,0,0.14);
+}
+
+.MuiGrid-root.Login-root-2.MuiGrid-container > div:nth-child(1) > img{
+    height: 80%;
+}
+
+.MuiGrid-root.Login-root-2.MuiGrid-container > div:nth-child(2){
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.login-wrapper{
+    margin: 0 auto;
+    width: 70%;
+    height: 75%;
+}
+
+form.Login-form-5 > button{
+    background-color: #3183ed;
+}
+
+form.Login-form-5 > button:hover{
+    background-color: #1266d2;
+}
+
+h1.MuiTypography-h5{
+    font-size:30px;
+}
+
+div.MuiInput-underline:hover:before{
+    border-bottom: 2px solid #3183ed !important;
+}
+
+div.MuiInput-underline:after{
+    border-bottom: 2px solid #3183ed;
+}
+
+.MuiGrid-root.makeStyles-root-2.MuiGrid-container{
+    height: 100%;
+}
+
+@media (max-width:1100px){
+    .login-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .MuiGrid-root.Login-root-2.MuiGrid-container> div:nth-child(1){
+        display: none;
+    }
+
+    .MuiGrid-root.Login-root-2.MuiGrid-container> div:nth-child(2){
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    div.Login-root-2 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:701px){
+
+    .MuiGrid-root.Login-root-2.MuiGrid-container> div:nth-child(1){
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        display: none;
+    }
+    
+    .MuiGrid-root.Login-root-2.MuiGrid-container > div:nth-child(2){
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+  
+    .login-wrapper{
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+}
